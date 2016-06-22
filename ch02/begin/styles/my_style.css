@@ -1,0 +1,40 @@
+div{
+
+	text-align:left;
+
+}
+.container {
+	margin: auto;
+	width: 80%;
+}
+#header{
+ 	width:100%;
+ 	border: 0px;
+}
+#main{
+	background-color: lightgrey;
+
+
+}
+.guess_box {
+	height: 245px;
+  float: left;
+  margin-bottom: 25px;
+  margin: 0px 5px 25px 0px;
+  width: 19%;
+}
+img {
+	border: solid #000 3px;
+	/*width: 100%;*/
+}
+.clear-both {
+	clear: both;
+}
+
+/*hover effects*/
+.yellow_border {
+	border: 3px solid yellow;
+}
+.black_border {
+	border: 3px solid black;
+}

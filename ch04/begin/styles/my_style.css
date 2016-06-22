@@ -1,0 +1,105 @@
+
+.menu_wrapper{
+    width: 96%;
+    border: 1px solid gray;
+}
+
+.topper{
+    padding: 2%;
+    width: 96%;
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+    background-color: red;
+}
+
+
+.left_col{
+    float: left;
+    padding: 4%;
+    width: 41%;
+    height: 1000px;
+    border-right: 1px solid gray;
+		padding-top: 1%;
+}
+
+.right_col{
+    float: right;
+    padding: 4%;
+    width: 41%;
+    height: 1000px;
+    border-left: 1px solid gray;
+		padding-top: 1%;
+}
+
+.bottom{
+    clear:both;
+    padding: 2%;
+    width: 96%;
+    height: 60px;
+    border-top: 1px solid gray;
+}
+
+
+.nav{
+    text-align: right;
+    float: right;
+    list-style: none;
+    padding-left: 15px;
+}
+
+
+.menu_entrees li{
+    list-style-type: none;
+    padding-left: 0px;
+}
+.menu_entrees {
+    padding-left: 0px;
+}
+
+
+.menu_list{
+    padding-bottom: 15px;
+		padding-left: 0px
+}
+
+.menu_list li{
+    display: inline;
+    list-style-type: none;
+    padding-left: 2px;
+}
+
+.meat{
+    background-color: yellow;
+}
+
+.hamburger{
+    background-color: yellow;
+}
+
+.fish{
+    background-color: yellow;
+}
+
+.tofu{
+    background-color: yellow;
+}
+
+.portobello{
+    background-color: yellow;
+}
+
+.veg_leaf{
+    list-style-image:url('../images/leaf.png');
+}
+h4 {
+	font-size: 1.5em;
+}
+nav li {
+	list-style: none;
+}
+button {
+	font-size: 1.5em;
+	float: left;
+	margin-right: 10px;
+}

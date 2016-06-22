@@ -1,0 +1,82 @@
+body {
+	background-image: url('../images/blackjack-table.jpg');
+	/*background-image: url('../images/casino-interior1.jpg');*/
+	background-size: cover;
+}
+#main {
+	width: 80%;
+	max-width: 845px;
+	margin: auto;
+	margin-top: 20px;
+	/*background-color: #FFFEE9;*/
+	height: 520px;
+	padding: 25px;
+	border-radius: 5px;
+	background-image: url('../images/table-wood.jpg');
+	background-size: cover;
+	/*background-image: url('../images/blackjack-table.jpg');
+	background-size: cover;*/
+
+}
+#controls{
+	clear:both;
+}
+#my_hand{
+	clear:both;
+	border: 2px solid gray;
+	border-radius: 5px;
+	height: 250px;
+	width: 835px;
+	background-color: white;
+}
+h3 {
+	display: inline;
+	padding-right: 40px;
+}
+.current_hand{
+	float:left;
+}
+#logo {
+	float: left;
+}
+#pointHistory {
+	clear: both;
+}
+
+#hdrResult, #hdrTotal, #hdrAverage {
+	float: left;
+	/*font-size: 2em;*/
+	/*font-weight: 500;*/
+	height: 40px;
+	width: 125px;
+	padding: 10px;
+	text-align: center;
+	margin: 0px 0px 0px 15px;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: white;
+}
+#btnHit, #btnStick, #btnRestart, #btnDeal {
+	display: none;
+	float: left;
+	font-size: 2em;
+	height: 60px;
+	width: 100px;
+	background-image: url('../images/card-hand.jpg');
+	/*opacity: 0.2;*/
+	background-size: cover;
+	padding: 10px;
+	text-align: center;
+  margin: 15px 15px 15px 0px;
+	border-radius: 5px;
+	border: 2px solid black;
+	background-color: white;
+
+}
+#btnHit p, #btnStick p, #btnRestart p, #btnDeal p {
+	margin-top: 10px;
+	font-weight: bold;
+}
+#btnRestart p {
+	margin-top: 0px;
+}

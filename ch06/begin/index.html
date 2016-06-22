@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Head First Black Jack</title>
+		<link href="styles/my_style.css" rel="stylesheet">
+	</head>
+
+	<div id='audio'>
+		<audio id='deal-card' src="images/deal-card.wav"></audio>
+		<audio id='win-sound' src="images/win-sound.mp3"></audio>
+		<audio id='lose-sound' src="images/lose-sound.wav"></audio>
+	</div>
+
+	<body>
+		<div id="main">
+			<!-- <h1>BlackJack</h1> -->
+			<img id='logo' src="images/blackjack-title.png" alt="blackjack" />
+
+			<!-- STATS -->
+			<h3 id="hdrTotal"></h3>
+			<h3 id="hdrResult"></h3>
+			<h3 id="hdrAverage"></h3>
+			<br>
+			<p id='pointHistory'>Point History:</p>
+
+			<!-- CARDS SHOW HERE -->
+			<div id="my_hand"></div>
+
+			<!-- BUTTONS -->
+			<div id="controls">
+				<div id="btnDeal">
+					<p>DEAL</p>
+					<!-- <img src="images/deck_small.jpg"> -->
+				</div>
+				<div id="btnHit">
+					<p>HIT</p>
+					<!-- <img src="images/deck_small.jpg" /> -->
+				</div>
+				<div id="btnStick">
+					<p>STICK</p>
+					<!-- <img src="images/stick_small.jpg"/> -->
+				</div>
+				<div id="btnRestart">
+					<p>PLAY AGAIN</p>
+					<!-- <img src="images/restart_small.jpg"/> -->
+				</div>
+				<div id='result'>
+					<img src="" id='imgResult'/>
+				</div>
+			</div>
+
+		</div> <!-- end main -->
+
+		<script src="scripts/jquery-1.6.2.min.js"></script>
+		<script src="scripts/my_scripts.js"></script>
+	</body>
+</html>

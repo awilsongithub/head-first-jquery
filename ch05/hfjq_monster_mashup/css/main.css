@@ -1,0 +1,99 @@
+body {
+  background-color: #000000; /* black */
+}
+p {
+  color: #33FF66;
+  font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+#text-top {
+  position: relative;
+  z-index: 4;
+  left: 165px;
+  margin-top: 15px;
+  width: 545px;
+  /*margin: auto;*/
+}
+#frame {
+  position: relative;
+  left: 140px;
+  /*top: 170px;*/
+  /*margin: auto;*/
+  margin-top: 20px;
+  width: 545px;
+  height: 629px;
+  background-image: url('../images/frame.png');
+  z-index: 2; /* put above lower numbered z-index elements */
+  overflow: hidden;
+}
+#pic_box {
+  position: relative;
+  left: 91px;
+  top: 84px;
+  width: 367px;
+  height: 460px;
+  z-index: 1;
+  overflow: hidden;
+}
+/* container aligned to top left corner of body stacked below at 0 */
+#container {
+  /*position: absolute;
+  left: 0px;
+  top: 0px;*/
+  z-index: 0;
+  width: 800px;
+  margin: auto;
+}
+/* start lightning class elements hidden stacked below all at top left of window */
+.lightning {
+  position: absolute;;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  display: none;
+}
+.face {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: 0; /* to stack image overflows below frame? */
+}
+#head {
+  height: 172px;
+}
+#eyes {
+  height: 79px;
+}
+#nose {
+  height: 86px;
+}
+#mouth {
+  height: 117px;
+}
+#monster-mashup {
+    width: 500px;
+}
+#center-text {
+    margin-left: 50px;
+}
+.myButton {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 1em;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  margin-right: 10px;
+  width: 200px;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 2px;
+  box-shadow: 0 3px #999;
+}
+.myButton:hover {background-color: #3e8e41}
+.myButton:active {
+  background-color: #3e8e41;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}

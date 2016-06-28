@@ -1,0 +1,61 @@
+<!doctype html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Monster Mashup</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css"> -->
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+
+  <div id='media'>
+    <audio id='loudThunder' src="media/loud-thunder-3second.wav"></audio>
+    <audio id='softThunder' src="media/thunder2-soft-2second.wav"></audio>
+  </div>
+
+
+  <div id='container'>
+
+    <header id='text-top'>
+      <img id='monster-mashup' src="images/Monster_Mashup.png" alt="monster mashup heading" />
+      <div id='center-text'>
+          <p>Make your own monster face by clicking on the picture.</p>
+          <button class='myButton' id='btnRandom'>Randomize</button>
+          <button class='myButton' id='btnReset'>Reset</button>
+      </div>
+    </header>
+
+
+    <img class='lightning' id='lightning1' src="images/lightning-01.jpg" alt="" />
+    <img class='lightning' id='lightning2' src="images/lightning-02.jpg" alt="" />
+    <img class='lightning' id='lightning3' src="images/lightning-03.jpg" alt="" />
+
+    <div id='frame'>
+      <div id='pic_box'>
+        <div id='head' class='face'>
+          <img src="images/headsstrip.jpg" alt="" />
+        </div>
+        <div id='eyes' class='face'>
+          <img src="images/eyesstrip.jpg" alt="" />
+        </div>
+        <div id='nose' class='face'>
+          <img src="images/nosesstrip.jpg" alt="" />
+        </div>
+        <div id='mouth' class='face'>
+          <img src="images/mouthsstrip.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+
+  </div> <!-- end container -->
+
+  <script type="text/javascript" src='scripts/jquery-1.6.2.min.js'></script>
+  <script type='text/javascript' src="scripts/my_scripts.js"></script>
+
+</body>
+</html>

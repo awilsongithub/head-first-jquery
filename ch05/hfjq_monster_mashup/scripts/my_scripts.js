@@ -108,6 +108,6 @@ function randomize(){
 function reset(){
 	$('.face').each(function(index){
 		$(this).animate({left: '0px'}, 500);
-		click[index] = 0;
+		clix[index] = 0;
 	});
 }

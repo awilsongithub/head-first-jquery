@@ -23,7 +23,7 @@ $(document).ready(function(){
     $('#pointHistory').append(' ' + score + '.');
 
     var average = calculateAverage();
-    $('#hdrAverage').text('AVERAGE SCORE: ' + average);
+    $('#displayAverage').text(average);
 
     $('#btnHit').hide(); // hide
     $('#btnRestart').show(); // show

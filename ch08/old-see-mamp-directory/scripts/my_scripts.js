@@ -32,7 +32,7 @@ $(document).ready(function(){
 					if ( $(this).find('gender').text() == 'm' ){
 						$('#finishers_m').append(info);
 					} else if ( $(this).find('gender').text() == 'f' ){
-						$('#finisher_f').append(info);
+						$('#finishers_f').append(info);
 					} else { }
 					$('#finishers_all').append(info);
 				});
